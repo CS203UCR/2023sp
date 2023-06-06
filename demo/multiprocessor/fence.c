@@ -43,7 +43,6 @@ int main()
 void* modifya(void *z)
 {
 //  a=1;
-  while(!go);
   _update_var(a,1);
   x=b;
   return NULL;
@@ -51,7 +50,6 @@ void* modifya(void *z)
 void* modifyb(void *z)
 {
 //  b=1;
-  while(!go);
   _update_var(b,1);
   y=a;
   return NULL;
